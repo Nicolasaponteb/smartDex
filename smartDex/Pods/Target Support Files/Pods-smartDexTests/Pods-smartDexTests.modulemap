@@ -1,0 +1,6 @@
+framework module Pods_smartDexTests {
+  umbrella header "Pods-smartDexTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

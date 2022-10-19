@@ -16,6 +16,9 @@
 		04B889AA290096CE004A8711 /* smartDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B889A9290096CE004A8711 /* smartDexTests.swift */; };
 		04B889B4290096CE004A8711 /* smartDexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B889B3290096CE004A8711 /* smartDexUITests.swift */; };
 		04B889B6290096CE004A8711 /* smartDexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B889B5290096CE004A8711 /* smartDexUITestsLaunchTests.swift */; };
+		79A372D37F5C8E186EE20104 /* Pods_smartDexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91221AF1C3416D5C83798CEA /* Pods_smartDexTests.framework */; };
+		A2E9B8C202A8CB426A9B03C8 /* Pods_smartDex_smartDexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CF7809193FF5AA65D17F38 /* Pods_smartDex_smartDexUITests.framework */; };
+		EC7A4EA441158340778FF882 /* Pods_smartDex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7FE8295A63D52E3649CFBF /* Pods_smartDex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		04B889AF290096CE004A8711 /* smartDexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartDexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B889B3290096CE004A8711 /* smartDexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartDexUITests.swift; sourceTree = "<group>"; };
 		04B889B5290096CE004A8711 /* smartDexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartDexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		282CB40E9C17270278BA7823 /* Pods-smartDexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartDexTests.debug.xcconfig"; path = "Target Support Files/Pods-smartDexTests/Pods-smartDexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F7FE8295A63D52E3649CFBF /* Pods_smartDex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartDex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E36BF9BE39957C3CED6981 /* Pods-smartDex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartDex.debug.xcconfig"; path = "Target Support Files/Pods-smartDex/Pods-smartDex.debug.xcconfig"; sourceTree = "<group>"; };
+		6011E814E0E8F77EAAA785F0 /* Pods-smartDex-smartDexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartDex-smartDexUITests.release.xcconfig"; path = "Target Support Files/Pods-smartDex-smartDexUITests/Pods-smartDex-smartDexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90CF7809193FF5AA65D17F38 /* Pods_smartDex_smartDexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartDex_smartDexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91221AF1C3416D5C83798CEA /* Pods_smartDexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartDexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92733151636C9C0332800596 /* Pods-smartDexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartDexTests.release.xcconfig"; path = "Target Support Files/Pods-smartDexTests/Pods-smartDexTests.release.xcconfig"; sourceTree = "<group>"; };
+		C787AC9340C4FC2C4A3F59E2 /* Pods-smartDex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartDex.release.xcconfig"; path = "Target Support Files/Pods-smartDex/Pods-smartDex.release.xcconfig"; sourceTree = "<group>"; };
+		E5990E047436FA72E574D1B2 /* Pods-smartDex-smartDexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartDex-smartDexUITests.debug.xcconfig"; path = "Target Support Files/Pods-smartDex-smartDexUITests/Pods-smartDex-smartDexUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7A4EA441158340778FF882 /* Pods_smartDex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A372D37F5C8E186EE20104 /* Pods_smartDexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E9B8C202A8CB426A9B03C8 /* Pods_smartDex_smartDexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				04B889A8290096CE004A8711 /* smartDexTests */,
 				04B889B2290096CE004A8711 /* smartDexUITests */,
 				04B88990290096CD004A8711 /* Products */,
+				7F204276FE51306ACD6EC9D3 /* Pods */,
+				BE080A2B4EC9698E6BF397D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = smartDexUITests;
 			sourceTree = "<group>";
 		};
+		7F204276FE51306ACD6EC9D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57E36BF9BE39957C3CED6981 /* Pods-smartDex.debug.xcconfig */,
+				C787AC9340C4FC2C4A3F59E2 /* Pods-smartDex.release.xcconfig */,
+				E5990E047436FA72E574D1B2 /* Pods-smartDex-smartDexUITests.debug.xcconfig */,
+				6011E814E0E8F77EAAA785F0 /* Pods-smartDex-smartDexUITests.release.xcconfig */,
+				282CB40E9C17270278BA7823 /* Pods-smartDexTests.debug.xcconfig */,
+				92733151636C9C0332800596 /* Pods-smartDexTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE080A2B4EC9698E6BF397D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FE8295A63D52E3649CFBF /* Pods_smartDex.framework */,
+				90CF7809193FF5AA65D17F38 /* Pods_smartDex_smartDexUITests.framework */,
+				91221AF1C3416D5C83798CEA /* Pods_smartDexTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B889B9290096CE004A8711 /* Build configuration list for PBXNativeTarget "smartDex" */;
 			buildPhases = (
+				A0A97D7848706355B265DF98 /* [CP] Check Pods Manifest.lock */,
 				04B8898B290096CD004A8711 /* Sources */,
 				04B8898C290096CD004A8711 /* Frameworks */,
 				04B8898D290096CD004A8711 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B889BC290096CE004A8711 /* Build configuration list for PBXNativeTarget "smartDexTests" */;
 			buildPhases = (
+				920C68B655032148DBB64740 /* [CP] Check Pods Manifest.lock */,
 				04B889A1290096CE004A8711 /* Sources */,
 				04B889A2290096CE004A8711 /* Frameworks */,
 				04B889A3290096CE004A8711 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B889BF290096CE004A8711 /* Build configuration list for PBXNativeTarget "smartDexUITests" */;
 			buildPhases = (
+				4D9796F657297F89D3210161 /* [CP] Check Pods Manifest.lock */,
 				04B889AB290096CE004A8711 /* Sources */,
 				04B889AC290096CE004A8711 /* Frameworks */,
 				04B889AD290096CE004A8711 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D9796F657297F89D3210161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartDex-smartDexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920C68B655032148DBB64740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartDexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0A97D7848706355B265DF98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartDex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04B8898B290096CD004A8711 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		04B889BA290096CE004A8711 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E36BF9BE39957C3CED6981 /* Pods-smartDex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +574,7 @@
 		};
 		04B889BB290096CE004A8711 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C787AC9340C4FC2C4A3F59E2 /* Pods-smartDex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +603,7 @@
 		};
 		04B889BD290096CE004A8711 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282CB40E9C17270278BA7823 /* Pods-smartDexTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +624,7 @@
 		};
 		04B889BE290096CE004A8711 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92733151636C9C0332800596 /* Pods-smartDexTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +645,7 @@
 		};
 		04B889C0290096CE004A8711 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5990E047436FA72E574D1B2 /* Pods-smartDex-smartDexUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +664,7 @@
 		};
 		04B889C1290096CE004A8711 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6011E814E0E8F77EAAA785F0 /* Pods-smartDex-smartDexUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
